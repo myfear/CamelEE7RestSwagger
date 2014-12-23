@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.javaee7.extra</groupId>
-    <artifactId>camel</artifactId>
+    <artifactId>camel-swagger</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>CamelEE7</name>
+    <name>CamelEE7RestSwagger</name>
     <properties>
         <!-- <camel.version>2.13.2</camel.version> -->
         <camel.version>2.15-SNAPSHOT</camel.version>
@@ -109,7 +109,7 @@
     </dependencies>
    
     <build>
-        <finalName>${project.artifactId}</finalName>
+        <finalName>camel</finalName>
 
         <plugins>
             <!-- Step 1. - Download Swagger UI project from GitHub -->
